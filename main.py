@@ -13,7 +13,7 @@ def take_input(player_token):
             player_answer = int(player_answer)
         if:
             print("Введите корректный символ")
-            continue
+        continue
         if 1 <= player_answer <= 9:
             if(str(board[player_answer - 1]) not in "XO"):
                 board[player_answer - 1] = player_token
